@@ -1,0 +1,40 @@
+.mobNav{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+
+    @media(width>769px){
+        display: none;
+    }
+
+    .mobNav-inner{
+        display: flex;
+        flex-direction: column;
+
+        .mobNav-link{
+            font-family: var(--fontFamily-2);
+            font-size: clamp(12px, 3vw, 16px);
+            text-align: right;
+            color: var(--whiteColor);
+            text-transform: uppercase;
+            text-wrap: nowrap;
+            margin-top: .5em;
+        }
+        .mobNav-link:first-child{
+            margin-top: 1em;
+            margin-right: 1em;
+        }
+        .mobNav-link:last-child{
+            margin-right: -1em;
+            margin-bottom: .5em;
+        }
+    }
+
+    .mobNav-gear{
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 60px;
+        height: 60px;
+    }
+}

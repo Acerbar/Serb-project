@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 100%;
+    min-height: 100dvh;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+p,
+a {
+    font-size: 20px;
+    color: #000;
+}
+
+a,
+input,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0;
+}
+a,
+a:visited,
+button {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 1440px;
+    max-height: fit-content;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    z-index: 3;
+
+    @media(width<=1200px){
+        width: 80%;
+    }
+
+    @media(width <=769px){
+        width: 90%;
+    }
+
+    @media(width <=569px){
+        width: 100%;
+    }
+
+}
+
+ul, li {
+    list-style-type: none;
+}
+.body__locked {
+    overflow: hidden;
+}
+
+section{
+    border-bottom: 5px solid var(--greenColor);
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+}
+section:last-of-type{
+    border-bottom: none;
+}

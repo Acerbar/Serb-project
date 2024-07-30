@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Mono:regular);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif+Caption:regular,italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:regular,italic,700,700italic);
+@import "/src/basicStyles.css";
+@import "/src/App.css";
+
+:root{
+    --blackColor: oklch(33.14% 0.003 345.4);
+    --whiteColor: oklch(100% 0 0);
+    --greenColor: oklch(64.15% 0.164 153.23);
+    --brightGreen: oklch(75.27% 0.22195257111925554 147.29372266424602);
+    --fontFamily-1: "PT mono";
+    --fontFamily-2: "PT sans";
+    --fontFamily-3: "PT serif caption";
+    --fontFamily-4: "Ubuntu mono";
+}
