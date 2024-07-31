@@ -13,7 +13,7 @@ export default function Preferences (){
                 <Paragraph>_This plays well in all industries, from production to logistics, and other components of different businesses.</Paragraph>
                 <Paragraph>_Our experienced specialists guarantee that our customized services will be introduced in the minimum time and have maximum efficiency. Our properly deployed and integrated into business operations cloud-based solutions (SaaS, IaaS, PaaS) unveil unique opportunities of limitless automatization and control potential while smoothing workflows and bringing clients many other advantages and benefits: </Paragraph>
                 <div className="pref-elements">
-                    <PrefElem image="/test.jpg" {...prefElemsContent[0]}/>
+                    <PrefElem image="./test.jpg" {...prefElemsContent[0]}/>
                     <PrefElem image="./Serb-project/access.jpg" {...prefElemsContent[1]}/>
                     <PrefElem image="./Serb-project/dataProtection.jpg" {...prefElemsContent[2]}/>
                     <PrefElem image="./Serb-project/serviceVolume.jpg" {...prefElemsContent[3]}/>
