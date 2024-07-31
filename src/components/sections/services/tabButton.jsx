@@ -32,7 +32,6 @@ const Button = styled.button`
     const ButtonActive = styled(Button)`
     background-color: var(--greenColor);
     color: oklch(91.33% 0 39.18);
-    text-shadow: 1px 1px #000;
     `
   
 
