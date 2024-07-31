@@ -4,8 +4,10 @@ const H2 = styled.h2`
     font-family: var(--fontFamily-1);
     font-size: clamp(10px, 1.8vw, 14px);
     letter-spacing: .1em;
-    color: var(--whiteColor);
+    color: var(--brightGreen);
     text-shadow: 1px 1px var(--blackColor);
+    text-transform: uppercase;
+
     `;
 const H3 = styled.h3`
     display: block;
@@ -72,7 +74,7 @@ const H3 = styled.h3`
     width: fit-content;
     max-width: 70%;
     font-family: var(--fontFamily-1);
-    font-size: clamp(12px, 1.5vw, 18px);
+    font-size: clamp(12px, 1.5vw, 16px);
     letter-spacing: .1em;
     color: var(--whiteColor);
     position: relative;
@@ -113,8 +115,8 @@ const H3 = styled.h3`
     const Text = styled.p`
         display: block;
         font-family: var(--fontFamily-4);
-        font-size: clamp(14px, 2vw, 22px);
-        font-weight: bold;
+        font-size: clamp(14px, 2vw, 20px);
+        font-weight: 400;
         line-height: 1.5em;
         letter-spacing: .1em;
         color: oklch(94.67% 0 20.12);

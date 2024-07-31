@@ -10,6 +10,7 @@ const Button = styled.button`
     position: relative;
     background-color: oklch(94% 0 262.59 / 80%);
     font-size: 16px;
+    font-weight:600;
     font-family: var(--fontFamily-1);
     line-height: 1.4em;
     color: var(--blackColor);
@@ -17,6 +18,7 @@ const Button = styled.button`
     border-radius: 4px 4px 0 0;
     text-wrap: balance;
     transition: all .2s linear;
+
 
 
     @media(width<=980px){
@@ -30,6 +32,7 @@ const Button = styled.button`
     const ButtonActive = styled(Button)`
     background-color: var(--greenColor);
     color: oklch(91.33% 0 39.18);
+    text-shadow: 1px 1px #000;
     `
   
 
